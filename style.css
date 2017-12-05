@@ -1,0 +1,139 @@
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Open sans', serif;
+	font-size: 15px;
+	background-color: #001f3f;
+	color: white;
+}
+
+::selection {
+    color: #0074D9;
+    
+}
+
+.container{
+	margin: 150px auto;	
+	width: 800px;
+	height: 500px;
+	
+}
+
+.container .buttons{
+	width: 200px;
+	float: left;
+	height: 300px;
+	margin: 100px auto;
+}
+
+.container button{
+	width: 140px;
+	margin: 10px;
+	padding: 8px ;
+	font-size: 17px;
+	border-radius: 5px;
+	border: 2px solid;
+	background-color: #001f3f;
+	color: white;
+
+}
+
+
+/*
+	LINE
+*/
+.line{
+	height: 400px;
+	border-right: 3px solid;
+	float: left;
+	margin: 80px auto;
+}
+
+/*
+	CONTENT BOX CUSTOMISATIONS
+*/
+
+.container .content{
+	width: 500px;
+	float: left;
+	margin: 80px auto;
+	padding: 20px;
+}
+
+/*
+	CONTENT BOX ELEMENT DEFAULT VISIBILITY
+*/
+
+.container .content #about{
+	display: none;
+}
+
+.container .content #education{
+	display: none;
+}
+
+.container .content #personal-projects{
+	display: none;
+}
+
+.container .content #freelancing-projects{
+	display: none;
+}
+
+/*
+PERSONAL INFO ELEMENT
+*/
+ul{
+	list-style: none;
+	padding: 20px;
+	margin: auto;
+}
+
+li{
+	padding: 10px;
+
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	padding: 2px 4px;
+	border-radius: 7px;
+	color: white;
+}
+
+/*
+	PROJECTS
+*/
+#freelancing-projects button, #personal-projects button{
+	border-radius: 0px;
+	font-size: 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
